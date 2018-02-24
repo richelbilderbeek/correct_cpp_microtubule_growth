@@ -41,11 +41,21 @@ grow if a thermal fluctuation creates a gap between the barrier and the end of t
 large enough to fit a tubulin dimer. This reduces the elongation rate of the protofilament by a factor
 that depends on the force exerted on the barrier.
 
+![Figure](Figure.png)
+
+Figure: Brownian ratchet model for the growth of microtubules. A schematic representation of a micro-
+tubule growing against a barrier. For simplicity, only four of the thirteen protofilaments have been drawn.
+The three diagrams illustrate the elongation of a microtubule by two consecutive polymerisation steps. The
+subunit highlighted in the middle diagram can attach without being obstructed by the barrier, but the second
+polymerisation step (right diagram) can only occur after a thermal fluctuation has created a sufficiently large
+gap between the tip of the microtubule and the barrier. After the insertion of the subunit, the barrier has been
+displaced over a distance ∆x. Image source: Krawczyk J., Kierfeld J. (2011) EPL 93: 28006.
 
 Under the assumption that the thermal fluctuations are fast relative to the timescale of polymerisation,
-0
-it can be shown that the modified rate of elongation of a protofilament, k on
-, is given by
+0, it can be shown that the modified rate of elongation of a protofilament, k on, 
+is given by:
+
+![Equation](Equation.png)
 
 where F > 0 is the force exerted on the barrier, ∆x is the size of the gap that had to be created in
 order to accommodate the subunit, k B = 1.3806485 · 10 −23 J/K is the Boltzmann constant, and T is the
